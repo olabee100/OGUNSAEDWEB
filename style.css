@@ -328,9 +328,11 @@ header {
     .about__article-title {
         color: var(--color-black);
         margin-bottom: 1.5rem;
+        
         font-size: 2rem;
         
     }
+    
     
     .about__content p {
         text-align: justify;
@@ -829,6 +831,10 @@ padding: 0;
     text-align: center;
     gap: 0;
     
+}
+
+.about__article-title{
+    margin-top: 4rem;
 }
 
 .about__article:nth-child(2) .about__image {
