@@ -1,0 +1,67 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+}
+
+.message-container {
+    max-width: 46.875rem; /* max-w-lg = 750px */
+    margin-top: 2rem; /* my-8 = 2rem */
+    margin-bottom: 2rem; /* my-8 = 2rem */
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem; /* px-8 py-6 */
+    border: 1px solid #38a169; /* border-emerald-600 */
+    color: #38a169; /* text-emerald-600 */
+    border-radius: .25rem; /* rounded-sm */
+    height: 50vh;
+    
+}
+
+.text-container p {
+    padding-bottom: 0.5rem;
+    font-size: 1rem; /* text-base */
+    font-weight: 400; /* font-normal */
+    letter-spacing: 0.025em; /* tracking-wide */
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.inner-link-container {
+    display: flex;
+    flex: 1;
+    background: green;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.donate-link {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 500; /* font-medium */
+    color: white; /* text-gray-900 */
+   
+    outline: none;
+    text-decoration: none;
+}
+
+.external-link-icon {
+    /* Represents the FiExternalLink icon. You'll need a different approach if you want to use an actual icon here. */
+    height: 1.25rem; /* h-5 */
+    width: 1.25rem; /* w-5 */
+    background-color: #ccc; /* Placeholder, replace with an actual icon or SVG */
+}

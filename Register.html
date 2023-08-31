@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <title>School Form</title>
+</head>
+
+<body>
+    <div class="form main">
+    <div class="form-head">
+        <h1>SAED REGISTRATION FORM</h1>
+    </div>
+    <div class="background-info">
+        
+        <div class="content">
+            <form >
+                <!-- School Name -->
+                <div class="full-name">
+                    <span class="info"> FULLNAME :</span>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                </div>
+
+                <!-- Contract Person -->
+                <div class="full-name">
+                    <span class="info">EMAIL :</span>
+                    <div>
+                        <input type="text" id="contractPerson" name="contractPerson" required>
+                    </div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="phone">
+                    <span class="info">PHONE NUMBER :</span>
+                    <input type="number" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                
+                <div class="full-name">
+                    <span class="info">STATE CODE:</span>
+                    <div>
+                        <input type="text" id="owner" name="owner" required>
+                    </div>
+                </div>
+
+                
+
+                <!-- Contract Date & Renewal Date -->
+                <div class="birth-gen">
+                    <div class="date-of-birth">
+                        <span class="info">ORIENTATION CAMP:</span>
+                        <label>
+                            <input type="text" id="contractDate" name="contractDate" required>
+                        </label>
+                    </div>
+                   
+                </div>
+
+                <!-- Managed By -->
+                <div class="full-name">
+                    <span class="info">SAED SKILL:</span>
+                    <select>
+                        <option value="ict">ICT (INFORMATION TECHNOLOGY)</option>
+                        <option value="ict">AGRO-ALLIED</option>
+                        <option value="ict">FOREX TRADING</option>
+                        <option value="ict">FOOD PROCESSING</option>
+                        <option value="ict">COSMETOLOGY</option>
+                        <option value="ict">CULTURE & TOURISM</option>
+                        <option value="ict">CONSTRUCTION</option>
+                        <option value="ict">AUTOMOBILE</option>
+                        <option value="ict">FILM & PHOTOGRAPHY</option>
+                        <option value="ict">POWER AND ENERGY</option>
+                        
+                    </select>
+                </div>
+
+               
+               
+
+                
+
+
+                <!-- Avatar -->
+                <div class="full-name">
+                <span class="info">UPLOAD YOUR PASSPORT ( jpg, png) :</span>
+                <input type="file" id="info" name="info accept="image/*" required>
+            </div>
+                <!-- Options -->
+               
+
+                <!-- Submit & Cancel -->
+                <div class="skip-next">
+                    <a href="/">
+                        <button type="button">Cancel</button>
+                    </a>
+                  <a href="/Submit.html" class="SUB">Submit</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
