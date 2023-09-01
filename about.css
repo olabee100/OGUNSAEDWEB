@@ -1,11 +1,20 @@
 .about-main{
-    margin-top: 15rem;
+    margin-top: 7rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.7;
 }
 
 .about-content{
     width: 90%;
+}
+
+.about__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    color: var(--color-primary);
 }
